@@ -1,0 +1,27 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Resolver</title>
+</head><body bgcolor ="black"text ="RED" align="center">
+    <h1>Welcome to our website</h1>
+    <hr>
+    <form method="post" action = "data.php">
+        Name:  <input type="text"name ="fn"><br>
+        Select your city:
+        <select name ="ct">
+            <option>Thane</option>
+            <option>Pune</option>
+            <option>Navi mumbai</option>
+        </select><br>
+        Enter your percentile :<textarea name ="address"rows ="1"cols="30"
+        placeholder="your percentile"required></textarea><br>
+        <button>submit</button>
+        
+        
+    </form><br>
+    </form>
+    
+</body>
+</html>
